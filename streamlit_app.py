@@ -17,7 +17,7 @@ def get_model():
 model = get_model()
 
 st.title("Cataract Maturity Classification")
-st.write("Upload an eye image to claasify the maturity level of cataracts using a Deep Learning model")
+st.write("Upload an eye image to classify the maturity level of cataracts using a Deep Learning model")
 
 uploaded_file = st.file_uploader("Choose an image file", type=["jpg", "jpeg", "png"])
 
